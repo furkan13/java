@@ -18,4 +18,23 @@ public class BankAccount {
 
 
     }
+
+    void deposite(double deposite)
+    {
+        accountBalance=accountBalance+deposite;
+    }
+
+    String withdraw(double withdraw)
+    {
+        if(accountBalance-withdraw>=minimumBalance)
+        {
+            accountBalance=accountBalance-withdraw;
+            return("withdraw successful");
+        }
+        return ("withdraw unsuccessful");
+    }
+
+    public double getAccountBalance() {
+        return accountBalance;
+    }
 }
