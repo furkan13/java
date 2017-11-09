@@ -8,7 +8,7 @@ public class BankAccount {
     int accountNumber;
     double accountBalance;
     int minimumBalance;
-    BankAccount(String _memberName,int _accountBalance,int _minimumbalance)
+    BankAccount(String _memberName,double _accountBalance,int _minimumbalance)
     {
         memberName=_memberName;
         accountBalance=_accountBalance;
