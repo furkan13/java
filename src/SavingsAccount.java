@@ -1,7 +1,7 @@
 public class SavingsAccount extends BankAccount{
     double interest;
     int maxWithdraw;
-    SavingsAccount(String _memberName,int _accountBalance,int _minimumbalance)
+    SavingsAccount(String _memberName,double _accountBalance,int _minimumbalance)
     {
         super(_memberName,_accountBalance,_minimumbalance);
         interest=.5;
